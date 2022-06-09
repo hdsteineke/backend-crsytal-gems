@@ -5,9 +5,7 @@ const gems = [
         nickname: 'Schtu-ball',
         species: 'Part Human, Part Gem',
         weapon: 'Shield',
-        components: 'Not a fusion',
-        url: 
-
+        components: 'Not a fusion'
     },
     {
         id: '2',
@@ -15,9 +13,7 @@ const gems = [
         nickname: 'Miss Knight',
         species: 'Human',
         weapon: 'Sword',
-        components: 'Not a fusion',
-        url: 
-
+        components: 'Not a fusion'
     },
     {
         id: '3',
@@ -25,9 +21,7 @@ const gems = [
         nickname: 'Dondai',
         species: 'Part Human, Part Gem',
         weapon: 'Shield & Sword',
-        components: 'Steven, Connie',
-        url: 
-
+        components: 'Steven, Connie'
     },
     {
         id: '4',
@@ -35,9 +29,7 @@ const gems = [
         nickname: 'The boss',
         species: 'Gem',
         weapon: 'Gauntlets',
-        components: 'Ruby, Sapphire',
-        url:  
-
+        components: 'Ruby, Sapphire'
     },
     {
         id: '5',
@@ -45,9 +37,7 @@ const gems = [
         nickname: 'Ams',
         species: 'Gem',
         weapon: 'Whip',
-        components: 'Not a fusion',
-        url:  
-
+        components: 'Not a fusion'
     },
     {
         id: '6',
@@ -55,9 +45,7 @@ const gems = [
         nickname: 'P',
         species: 'Gem',
         weapon: 'Spear, Swords',
-        components: 'Not a fusion',
-        url: 
-
+        components: 'Not a fusion'
     },
     {
         id: '7',
@@ -65,8 +53,7 @@ const gems = [
         nickname: 'Peri',
         species: 'Gem',
         weapon: 'Limb-enhancers',
-        components: 'Not a fusion',
-        url:
+        components: 'Not a fusion'
     },
     {
         id: '8',
@@ -74,9 +61,8 @@ const gems = [
         nickname: 'Lapis',
         species: 'Gem',
         weapon: 'Hydrokinesis',
-        components: 'Not a fusion',
-        url: 
+        components: 'Not a fusion'
+    }, 
+];
 
-    },
-   
-]
+module.exports = { gems };
