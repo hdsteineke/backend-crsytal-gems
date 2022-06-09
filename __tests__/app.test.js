@@ -16,6 +16,21 @@ describe('gems routes', () => {
     });
     expect(res.body).toEqual(expected);
   });
+
+  it('/gems/:id should return a detailed crystal gem', async () => {
+    const res = await request(app).get('/gems/1');
+    const steven = {
+      id: '1',
+      name: 'Steven',
+      nickname: 'Schtu-ball',
+      species: 'Part Human, Part Gem',
+      weapon: 'Shield',
+      components: 'Not a fusion'
+    };
+    expect(res.body).toEqual(steven);
+  });
+
+
   afterAll(() => {
     pool.end();
   });
