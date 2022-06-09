@@ -12,7 +12,7 @@ CREATE table gems (
     components VARCHAR NOT NULL
 );
 
-INSERT INTO gems (name, nickname, weapon, components) VALUES
+INSERT INTO gems (name, nickname, species, weapon, components) VALUES
 ('Steven', 'Schtu-ball', 'Part Human, Part Gem', 'Shield', 'Not a fusion'),
 
 ('Connie', 'Miss Knight', 'Human', 'Sword', 'Not a fusion'),
